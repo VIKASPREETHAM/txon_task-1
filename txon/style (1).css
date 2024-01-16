@@ -1,0 +1,99 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(
+    to right,
+    #3498db,
+    #2ecc71
+  ); /* Match the gradient */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.container {
+  width: 60%;
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 40px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.company-name {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+}
+
+.contact-buttons {
+  display: flex;
+}
+
+.button {
+  margin-left: 10px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: transparent;
+  color: #000000;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: bold;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.button:hover {
+  background-color: #2ecc703b;
+  color: #003e68;
+}
+
+.welcome-section {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.welcome-text {
+  font-size: 36px;
+  font-weight: bold;
+  color: #333;
+}
+
+.action-buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: auto;
+}
+.get-started,
+.find-out-more {
+  margin-top: 10px;
+  width: 100%;
+  max-width: 200px;
+  padding: 8px 16px;
+  font-size: 12px;
+  background: linear-gradient(to right, #3498dbc5, #2ecc71);
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  transition: background 0.3s, color 0.3s;
+}
+
+.get-started:hover,
+.find-out-more:hover {
+  background: linear-gradient(to right, #3498db94, #2ecc707e);
+  color: #333;
+}
